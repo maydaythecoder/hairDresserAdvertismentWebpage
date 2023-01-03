@@ -181,6 +181,11 @@ body{
        width: 25%;
    }
    
+   .cover{
+    filter: grayscale(50%)   ;
+    -webkit-filter: grayscale(50%)   ;
+}
+
    .container {
        width: 900px;
        height: 250px;
