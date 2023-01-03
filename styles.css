@@ -76,6 +76,7 @@ body{
    }
    
    #one{
+    border-radius: 20px;
        margin-top: 120px;
        margin-left: 400px;
        margin-bottom: 30px;
@@ -85,15 +86,22 @@ body{
    }
    
    #two{
-       margin-top: 100px;
-       margin-left: 40%;
-       margin-bottom: 30px;
-       position: absolute;
-       width: auto;
-   z-index: 6;
-   }
+    border-radius: 20px;
+    margin-top: 140px;
+    margin-left: 39.5%;
+    margin-bottom: 30px;
+    position: absolute;
+    width: auto;
+    z-index: 6;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+}
    
    #three{
+    border-radius: 20px;
        margin-top: 16%;
        margin-left: 49%;
        margin-bottom: 30px;
@@ -103,6 +111,7 @@ body{
    }
    
    #four{
+    border-radius: 20px;
        margin-top: 19%;
        margin-left: 35%;
        margin-bottom: 30px;
@@ -112,6 +121,7 @@ body{
    }
    
    #five{
+    border-radius: 20px;
        margin-top: 2%;
        margin-left: 300px;
        margin-bottom: 30px;
@@ -121,6 +131,7 @@ body{
    }
    
    #six{
+    border-radius: 20px;
        margin-top: 12%;
        margin-left: 500px;
        margin-bottom: 30px;
@@ -130,6 +141,7 @@ body{
    }
    
    #seven{
+    border-radius: 20px;
        margin-top: 19%;
        margin-left: 20%;
        margin-bottom: 30px;
@@ -140,6 +152,7 @@ body{
    }
    
    #eight{
+    border-radius: 20px;
        margin-top: 21%;
        margin-left: 22%;
        margin-bottom: 30px;
@@ -169,7 +182,10 @@ body{
    z-index: 4;
    }
    
-   
+   .stacked-pics{
+    filter: grayscale(80%);
+    -webkit-filter: grayscale(80%);
+}
    
    .text{
        padding-top: 350px;
@@ -179,11 +195,18 @@ body{
    .pictures{
        height: 25%;
        width: 25%;
+
    }
    
+.chunk{
+    margin-top: 00px;
+}
+
    .cover{
     filter: grayscale(45%)   ;
-    -webkit-filter: grayscale(45%)   ;
+    -webkit-filter: grayscale(45%);
+    filter: opacity(40%);
+    -webkit-filter: opacity(40%);
 }
 
    .container {
