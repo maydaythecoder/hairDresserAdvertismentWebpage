@@ -182,8 +182,8 @@ body{
    }
    
    .cover{
-    filter: grayscale(50%)   ;
-    -webkit-filter: grayscale(50%)   ;
+    filter: grayscale(45%)   ;
+    -webkit-filter: grayscale(45%)   ;
 }
 
    .container {
